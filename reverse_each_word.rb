@@ -6,5 +6,6 @@ def reverse_each_word(sentence)
     reversed_sentence += (word.reverse + " ")
   end
   
+  reversed_sentence.trim
   return reversed_sentence
 end
